@@ -1,10 +1,6 @@
-Aqui está um modelo detalhado de um `README.md` que você pode usar para documentar seu projeto de exibição de fatos sobre gatos, desenvolvido durante o curso de React na UTFPR. Este README está formatado para se destacar em um repositório do GitHub:
-
----
-
 # 🐱 Cat Facts App
 
-Este é um projeto React desenvolvido durante o curso de **Desenvolvimento Front-End** na **UTFPR - Campus Medianeira**, onde aprendemos a consumir APIs. O aplicativo exibe fatos aleatórios sobre gatos e permite ao usuário gerar novos fatos ao clicar no botão **"Novo Fato"**.
+Este é um projeto React desenvolvido durante o curso de **React - Desenvolvimento Front-End** na **UTFPR - Campus Medianeira**, onde aprendemos a consumir APIs. O aplicativo exibe fatos aleatórios sobre gatos e permite ao usuário gerar novos fatos ao clicar no botão **"Novo Fato"**.
 
 ---
 
@@ -28,9 +24,6 @@ Este é um projeto React desenvolvido durante o curso de **Desenvolvimento Front
 ## 📂 Estrutura de Arquivos
 
 ```plaintext
-cat-facts/
-├── public/
-│   └── index.html          # HTML base da aplicação
 ├── src/
 │   ├── components/
 │   │   ├── CatFact.jsx     # Componente para exibir o fato
@@ -41,6 +34,7 @@ cat-facts/
 │   └── index.css           # Estilos globais
 ├── package.json            # Gerenciamento de dependências
 ├── package-lock.json       # Controle de versões das dependências
+├── index.html              # HTML base da aplicação
 └── README.md               # Documentação do projeto
 ```
 
@@ -92,31 +86,3 @@ Este projeto foi desenvolvido como parte do curso de **Desenvolvimento Front-End
 - Estilização com CSS.
 
 ---
-
-## 📸 Demonstração
-
-Adicione uma captura de tela da aplicação aqui:
-![Cat Facts App](./screenshot.png)
-
----
-
-## 🛡️ Licença
-
-Este projeto está licenciado sob a [MIT License](./LICENSE).
-
----
-
-Feito com ❤️ durante o curso de **Desenvolvimento Front-End** na **UTFPR - Campus Medianeira**.
-
----
-
-### 🌟 Dicas Finais para o GitHub:
-1. **Nome do Repositório**: Siga a convenção de usar nomes em **inglês e minúsculas**:
-   - Sugestão: `cat-facts-app` ou `react-cat-facts`.
-
-2. **Inclua uma Captura de Tela**:
-   - Adicione uma imagem chamada `screenshot.png` na raiz do projeto para ser usada na seção **Demonstração**.
-
-3. **Crie um `.gitignore`**:
-   - Certifique-se de que o arquivo `.gitignore` inclui pastas como `node_modules` para evitar que arquivos desnecessários sejam enviados para o repositório.
-
